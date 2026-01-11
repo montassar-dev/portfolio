@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Montassar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="document.body.classList.toggle('light')">
+      🌙 / ☀️
+    </button>
+
+    <section class="progects fade-in">
+
+    <header>
+        <nav class="navbar">
+        <div class="logo">Web Developer</div>
+
+        <div class="menu-btn" onclick="toggleMenu()"> ☰</div>
+
+        <ul class="menu" id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+        <img src="Screenshot 2025-10-28 123856.png" alt="Logo">
+    </header>
+
+    <main id="about" >
+    <h1 class="t">Montassar</h1>
+
+    <p class="s">
+      Je suis Montassar, élève en 3ème informatique et développeur web débutant.
+      J’aime créer des sites et des jeux simples avec HTML, CSS et JavaScript.
+    </p>
+
+    <img src="Screenshot 2025-10-28 123856.png" alt="photo" class="i">
+
+    <a href="https://www.instagram.com/_monta__ssar_" 
+       target="_blank" 
+       class="insta-about">
+       Instagram
+    </a>
+    </main>
+
+
+    <div class="skill">
+  <span>HTML</span>
+  <div class="bar"><div class="fill html"></div></div>
+</div>
+
+<div class="skill">
+  <span>CSS</span>
+  <div class="bar"><div class="fill css"></div></div>
+</div>
+
+<div class="skill">
+  <span>JavaScript</span>
+  <div class="bar"><div class="fill js"></div></div>
+</div>
+
+<div class="skill">
+  <span>Python</span>
+  <div class="bar"><div class="fill python"></div></div>
+</div>
+
+    <main >
+        <section class="progects" id="projects">
+  <h1 class="t">Mes Projects</h1>
+
+  <div class="projects-container">
+
+    <div class="project-card f">
+      <h3>Login Page</h3>
+      <p>Simple page de connexion en HTML & CSS.</p>
+      <a href="login.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card f">
+      <h3>Tic Tac Toe</h3>
+      <p>Jeu classique réalisé avec JavaScript.</p>
+      <a href="tictactoe.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card f">
+      <h3>Car</h3>
+      <p>Jeu interactif en JavaScript.</p>
+      <a href="car.html" target="_blank">Voir le projet</a>
+    </div>
+  </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

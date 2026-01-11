@@ -1,0 +1,37 @@
+body {
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+.board {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px auto;
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: blueviolet;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background: cadetblue;
+}
+
+button {
+  padding: 10px 20px;
+  background: cadetblue;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

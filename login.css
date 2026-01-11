@@ -1,0 +1,67 @@
+label{
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+    color: #ccc;
+    font-weight: bold;
+}
+input[type=text],input[type=tel],input[type=password]{
+    margin-bottom: 10px;
+}
+header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px blueviolet;
+    color: aquamarine;
+    border-radius: 25px ;
+    box-shadow: 10px 10px 20px  blueviolet;
+    padding: 70px;
+    border-style: solid;
+    box-sizing: 4px;
+    border-color:aquamarine;
+}
+header h1{
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 1px blueviolet;
+    color: aquamarine;
+}
+body{
+    background-color: black;
+}
+input[type=submit]{
+    background-color:aquamarine;
+    color: blueviolet;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
+input[type=submit]:hover{
+    background-color: blueviolet;
+    color: aquamarine;
+    transition: 0.5s;
+}
+input[type=text],input[type=tel],input[type=password]{
+    background-color: blueviolet;
+    margin-right: 20px;
+    color: aquamarine;
+    display: block;
+    width: 250px;
+    padding: 8px;
+    margin: 10px 0;
+}
+input[type=password]:hover{
+    box-shadow: 5px 5px 10px aquamarine;
+    transition: 0.5s;
+}
+input[type=text]:hover{
+    box-shadow: 5px 5px 10px aquamarine;
+    transition: 0.5s;
+}
+input[type=tel]:hover{
+    box-shadow: 5px 5px 10px aquamarine;
+    transition: 0.5s;
+}
