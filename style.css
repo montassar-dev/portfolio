@@ -58,6 +58,7 @@ header {
 
 .menu li a:hover {
   background: var(--main);
+  color: white;
 }
 
 /* Menu button */
