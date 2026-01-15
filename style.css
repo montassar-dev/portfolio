@@ -16,7 +16,7 @@
 
 /* Body */
 body {
-  background: var(--dark);
+  background: red;
   color: var(--light);
   line-height: 1.6;
 }
